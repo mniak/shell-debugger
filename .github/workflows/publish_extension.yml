@@ -1,4 +1,4 @@
-name: Build for Android
+name: Publish extension to Visual Studio Marketplace
 on:
   push:
     branches:
@@ -26,7 +26,7 @@ jobs:
       - name: "Install dependencies"
         run: npm install
 
-      - name: "Install VSCE"
+      - name: "Install VSCE tool"
         run: npm install -g @vscode/vsce
 
       - name: Build VSIX package
