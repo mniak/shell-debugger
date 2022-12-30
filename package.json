@@ -14,13 +14,17 @@
   ],
   "main": "./out/extension.js",
   "contributes": {
-    "commands": [
+    "debuggers": [
       {
-        "command": "shell-debugger.helloWorld",
-        "title": "Hello World"
+        "type": "shell",
+        "label": "Execute shell command",
+        "program": "./out/debug.js",
+        "configurationAttributes": {},
+        "initialConfigurations": []
       }
     ]
   },
+  "activationEvents": ["onDebug"],
   "scripts": {
     "vscode:prepublish": "yarn run compile",
     "compile": "tsc -p ./",
