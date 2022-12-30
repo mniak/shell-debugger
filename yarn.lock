@@ -188,6 +188,18 @@
     "@typescript-eslint/types" "5.47.1"
     eslint-visitor-keys "^3.3.0"
 
+"@vscode/debugadapter@^1.58.0":
+  version "1.58.0"
+  resolved "https://registry.yarnpkg.com/@vscode/debugadapter/-/debugadapter-1.58.0.tgz#57075409fa4008da6a795ae046d9e7905b0e6d8e"
+  integrity sha512-FxCLNY2ViKPVVVHpZQQzkAM2XtFjCv4GH/SS0MtzX/XQbKAunNFLRWbGAtbdJ35Eq4G0LQW1tQEwOmnURX7VZw==
+  dependencies:
+    "@vscode/debugprotocol" "1.58.0"
+
+"@vscode/debugprotocol@1.58.0":
+  version "1.58.0"
+  resolved "https://registry.yarnpkg.com/@vscode/debugprotocol/-/debugprotocol-1.58.0.tgz#3416047d72103784daebab27b3834481e2960598"
+  integrity sha512-64gY3PdU7jmYDwLRJFZ5XL2BC8TK5mdhZ60XLTZn17yfbJPKCcmFDuQAkVfOPsjn7o4f6YWFy3AXSR0V9gY6jA==
+
 "@vscode/test-electron@^2.2.0":
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/@vscode/test-electron/-/test-electron-2.2.1.tgz#6d1ac128e27c18e1d20bcb299e830b50587f74ca"
