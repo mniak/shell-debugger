@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Hello world",
+            "type": "shell",
+            "program": "echo",
+            "request": "launch",
+            "args": [
+                "Hello World!"
+            ]
+        }
+    ]
+}
