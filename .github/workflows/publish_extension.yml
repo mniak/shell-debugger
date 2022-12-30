@@ -24,7 +24,7 @@ jobs:
           node-version: 19
       
       - name: "Install dependencies"
-        run: yarn add
+        run: yarn install
 
       - name: "Install VSCE tool"
         run: yarn global add @vscode/vsce
