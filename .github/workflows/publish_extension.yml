@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Chegkout code from repository
+      - name: Checkout code from repository
         uses: actions/checkout@v2
 
       - name: Install Node
