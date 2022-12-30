@@ -17,14 +17,42 @@
     "debuggers": [
       {
         "type": "shell",
-        "label": "Execute shell command",
+        "label": "Shell Command",
         "program": "./out/debug.js",
         "configurationAttributes": {},
-        "initialConfigurations": []
+        "initialConfigurations": [
+          {
+            "type": "shell",
+            "request": "launch",
+            "name": "Hello world",
+            "command": "echo",
+            "args": [
+              "Hello",
+              "World!"
+            ]
+          }
+        ],
+        "configurationSnippets": [
+          {
+            "label": "Shell Debug: execute command",
+            "description": "Execute an arbitrary command with optional arguments",
+            "body": {
+              "type": "shell",
+              "request": "launch",
+              "name": "Launch",
+              "command": "${1:echo}",
+              "args": [
+                "${2:Hello World}"
+              ]
+            }
+          }
+        ]
       }
     ]
   },
-  "activationEvents": ["onDebug"],
+  "activationEvents": [
+    "onDebug"
+  ],
   "scripts": {
     "vscode:prepublish": "yarn run compile",
     "compile": "tsc -p ./",
