@@ -3,6 +3,9 @@
   "displayName": "Shell Debugger",
   "description": "Allow shell commands in launch.json",
   "version": "0.0.1",
+  "license": "MIT",
+  "publisher": "mniak",
+  "repository": "https://github.com/mniak/shell-debugger",
   "engines": {
     "vscode": "^1.74.0"
   },
